@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (event) => {
         forecastInfo.classList.remove('forecast')
     }
 
-    fetch(`http://localhost:3000/api/weather/endpoint?address=${location}`).then((response) => {
+    fetch(`/api/weather/endpoint?address=${location}`).then((response) => {
     response.json().then((data) => {
         if(data.error) {
             forecastInfo.classList.add('error')
