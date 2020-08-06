@@ -16,4 +16,9 @@
     </div>
     {{>footer}}
 </body>
+<script>
+    window.addEventListener('beforeunload', () => {
+        document.querySelector('title').textContent = 'Techsuite'
+    })
+</script>
 </html>

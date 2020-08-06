@@ -7,13 +7,19 @@
     <script src="https://kit.fontawesome.com/ed06971682.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/images/weather1.png">
-    <title>About</title>
+    <title>About | Techsuite</title>
 </head>
 <body>
      {{>header}}
      <div class="main-content">
+         <p>This site was created by Cain Gwasira. It uses data from mapbox.com and darksky.net </p>
          <img src="/images/me.jpg" alt="">
      </div>
     {{>footer}}
 </body>
+<script>
+    window.addEventListener('beforeunload', () => {
+        document.querySelector('title').textContent = 'Techsuite'
+    })
+</script>
 </html>

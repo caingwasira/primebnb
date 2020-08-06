@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/ed06971682.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/images/weather1.png">
-    <title>404</title>
+    <title>404 | Techsuite</title>
 </head>
 <body>
     {{>header}}
@@ -17,4 +17,9 @@
     </div>
     {{>footer}}
 </body>
+<script>
+    window.addEventListener('beforeunload', () => {
+        document.querySelector('title').textContent = 'Techsuite'
+    })
+</script>
 </html>

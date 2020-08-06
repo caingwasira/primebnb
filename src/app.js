@@ -37,7 +37,12 @@ app.get('/help', (req, res) => {
 })
 
 app.get('/api/weather/endpoint', (req, res) => {
-    if(req.url === '/api/weather/endpoint') return res.redirect('http://localhost:3000/404')
+    if(req.url === '/api/weather/endpoint') {
+        return res.render('404', {
+            code: 404,
+            message: 'Page not found'
+        })
+    }
     const { address } = req.query
     if(!address) return res.send({ error: 'Please provide an address'})
 
