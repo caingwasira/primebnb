@@ -14,10 +14,10 @@ weatherForm.addEventListener('submit', (event) => {
     forecast.textContent = 'Loading...'
     locate.textContent = ''
     if(forecast.textContent === 'Loading...') {
-        forecastInfo.classList.remove('error')
+        forecastInfo.classList.remove('error');
         forecastInfo.classList.remove('forecast')
     }
-    
+
     fetch(`http://localhost:3000/api/weather/endpoint?address=${location}`).then((response) => {
     response.json().then((data) => {
         if(data.error) {
