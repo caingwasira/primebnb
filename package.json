@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "v12.4.0"
+  },
   "scripts": {
     "start": "node src/app",
     "dev": "nodemon src/app"
@@ -14,7 +17,5 @@
     "hbs": "^4.1.1",
     "request": "^2.88.2"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "devDependencies": {}
 }
