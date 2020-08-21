@@ -108,4 +108,5 @@ button:hover { background-color: #3492da; color: #fff;}
     flex-direction: row;
     justify-content: space-evenly;
     margin: 20px;
+    padding: 10px;
 }
