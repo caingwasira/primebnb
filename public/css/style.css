@@ -100,3 +100,12 @@ button {
 }
 
 button:hover { background-color: #3492da; color: #fff;}
+
+/*       Affiliate Program */
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
