@@ -105,13 +105,8 @@ button:hover { background-color: #3492da; color: #fff;}
 
 .products {
     display: flex;
-    flex: 1;
-    flex-grow: 1;
+    flex: 2;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 20px;
-}
-
-iframe {
-    margin: 10px;
 }
