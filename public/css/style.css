@@ -11,6 +11,110 @@
      
  }
 
+
+/*---------------------Navigation--------------------------------*/
+
+.logo {
+    width: 50%;
+    height: 20%;
+    font: icon;
+}
+
+.mynav {
+    background-color: #fff;
+}
+
+.mynav li a {
+    color: #116c8a;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+
+.mynav li a:hover {
+    color: #2faed8;
+    border-bottom: 2px solid #c49a4c;
+}
+
+.fa-bars {
+    color: #116c8a;
+    float: right;
+}
+
+.fa {
+    color: #116c8a;
+    float: right;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.fa:hover {
+    color: #2faed8;
+    border-radius: 10px;
+}
+
+
+.btn-danger {
+    background-color: #116c8a !important;
+}
+
+.contact-btn {
+    color: #116c8a !important;
+    background-color: #fff !important;
+    border: .02em solid #0b65be;
+}
+
+.contact-btn:hover, .learnmore-btn:hover  {
+    color: #fff !important;
+    background-color: #116c8a !important;
+}
+
+@media(max-width: 1000px) {
+    .navbar .nav-item, .social-links {
+        display: block;
+        width: auto;
+        padding: 0 5em 0 0;
+        text-align: center;
+    }
+
+    .social-links {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+    .social-items {
+        padding-left: 4em;
+    }
+
+    .welcome_content {
+        margin-top: 5rem;
+    }
+
+
+    .home {
+        padding-top: auto !important;
+    }
+
+    .home-row {
+        margin-top: auto !important;
+    }
+
+    .navbar-nav {
+        border-top: 1px solid #116c8a;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.8em;
+    }
+
+    .navbar-brand img {
+        width: 2rem !important;
+    }
+}
+
+
+/*---------------------Main Content--------------------------------*/
+
  .main-content {
      flex-grow: 1;
  }
@@ -30,39 +134,21 @@
  }
 
  header {
-     color: #3492da;
+     color: #116c8a;
      padding: 5px 60px;
      background-color: #f8f8f8;
  }
 
- nav {
-     background-color: #fff;
- }
-
- nav li {
-     list-style: none;
-     display: inline-block
- }
-
- nav a {
-     color: #3492da;
-     text-decoration: none;
-     padding: 0 16px;
- }
-
- nav a:hover {
-     color: #062F4F;
- }
 
  footer {
     background-color: #f8f8f8;
-    color: #3686c4;
+    color: #116c8a;
     padding: 2em;
 }
 
 .forecast {
-    border: 1px solid #3492da;
-    color: #3686c4;
+    border: 1px solid #116c8a;
+    color: #116c8a;
     background-color: #eeeeee;
     padding: auto;
     margin: 20px auto;
@@ -82,26 +168,28 @@
 
 input {
     font-family: 'Lato', sans-serif;
-    border: 1px solid #3492da;
+    border: 1px solid #116c8a;
     padding: 8px;
     border-radius: 5px;
     width: 40%;
 }
 
-input:focus { color: #3492da;}
+input:focus { color: #116c8a;}
 
 button {
     font-family: 'Lato', sans-serif;
     cursor: pointer;
-    border: 1px solid #3492da;
-    color: #3492da;
+    border: 1px solid #116c8a;
+    color: #116c8a;
     padding: 8px;
     border-radius: 5px;
 }
 
-button:hover { background-color: #3492da; color: #fff;}
+button:hover { background-color: #116c8a; color: #fff;}
 
-/*       Affiliate Program */
+
+
+/*--------------------Affiliate Product---------------------- */
 
 .products {
     display: flex;
@@ -112,4 +200,10 @@ button:hover { background-color: #3492da; color: #fff;}
 
 iframe {
     width: 25%;
+}
+
+
+footer {
+    background-color: #116c8a;
+    color: #fff;
 }
