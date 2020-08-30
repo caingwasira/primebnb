@@ -4,5 +4,4 @@
 ### What it does
 * displays current weather of any location
 * virtual assistant
-* very interactive
 * purchase products such as solar panels
