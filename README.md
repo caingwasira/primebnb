@@ -1,1 +1,1 @@
-﻿# amazing app
+﻿# awesome app
